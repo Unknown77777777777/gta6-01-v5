@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Costa Sol — Open-World Crime</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="game"></canvas>
+<div id="hud">
+  <div id="hud-top">
+    <span id="hud-money">$75</span>
+    <span id="hud-debt">DEBT $2000</span>
+    <span id="hud-health">HP 100</span>
+    <span id="hud-stars">☆☆☆☆☆</span>
+    <span id="hud-clock">08:00 · day</span>
+    <span id="hud-speed"></span>
+  </div>
+  <div id="hud-objective"></div>
+  <div id="hud-timer"></div>
+  <div id="hud-district"></div>
+  <div id="hud-weapons"></div>
+  <div id="hud-side"></div>
+  <div id="hud-fps"></div>
+  <div id="hud-minigame-box" class="hidden"><span id="hud-minigame"></span></div>
+  <div id="hud-radio" class="hidden"></div>
+  <div id="hud-banner" class="hidden"></div>
+  <canvas id="minimap" width="190" height="142"></canvas>
+  <div id="hud-hint">WASD drive/walk · E enter/exit car · F shoot · R radio · 1-4 weapons · V vigilante · M mute</div>
+  <div id="hud-dialog" class="hidden">
+    <div id="hud-dialog-who"></div>
+    <div id="hud-dialog-text"></div>
+    <div id="hud-dialog-hint">E — continue</div>
+  </div>
+</div>
+<div id="screen-start">
+  <h1>COSTA SOL</h1>
+  <p class="tag">An open-world crime story. Lena Cruz owes Marco Venn $2000.<br>
+  Nine missions. One city. Pay it back — or take the city.</p>
+  <p class="controls">WASD / Arrows — walk &amp; drive · E — steal / enter car · F — shoot (aim with mouse)<br>
+  R — change radio · 1–4 — weapons · V — vigilante (in a car, no heat) · Shift — run · Space — handbrake</p>
+  <p class="side-legend">Side work: taxi fares at green TAXI stands · 8 hidden packages (+$25) · stunt jumps (+$50)<br>
+  Street races at the start line · paramedic runs in an ambulance · districts pay a bonus at night.</p>
+  <button id="btn-new">NEW GAME</button>
+  <button id="btn-continue" style="display:none">CONTINUE</button>
+  <p class="foot">Costa Sol is an original city. No Rockstar / GTA assets, names or music. All art and audio are procedural.</p>
+</div>
+<div id="screen-complete" class="hidden">
+  <h1>COSTA SOL COMPLETE</h1>
+  <p>Lena Cruz is the King of Costa Sol. Debt paid. Marco finished.</p>
+  <p>Thanks for playing.</p>
+</div>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
