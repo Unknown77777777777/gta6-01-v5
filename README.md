@@ -1,8 +1,8 @@
 # Costa Sol — Open-World Crime
 
-[![make.fun bounty](https://make.fun/badge/gta6-01.svg)](https://make.fun/bounty/gta6-01)
-[![rank](https://make.fun/badge/gta6-01/Unknown77777777777/gta6-01/rank.svg)](https://make.fun/bounty/gta6-01/leaderboard)
-[![reward](https://make.fun/badge/gta6-01/Unknown77777777777/gta6-01/reward.svg)](https://make.fun/bounty/gta6-01)
+[![make.fun · gta6-01](https://make.fun/badge/gta6-01.svg)](https://make.fun/bounty/gta6-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+[![rank](https://make.fun/badge/gta6-01/Unknown77777777777/gta6-01-v5/rank.svg)](https://make.fun/bounty/gta6-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+[![reward](https://make.fun/badge/gta6-01/Unknown77777777777/gta6-01-v5/reward.svg)](https://make.fun/bounty/gta6-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
 
 An original open-world crime game built for the [make.fun GTA 6 bounty](https://make.fun/bounty/gta6-01).
 Lena Cruz owes Marco Venn $2000. Nine story missions across Costa Sol pay it back — and then take the city.
